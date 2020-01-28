@@ -1,0 +1,70 @@
+package com.example.demoh2.entity;
+
+public class ImovelJava {
+    private String id;
+    private String cep;
+    private String endereco;
+    private Integer numero;
+    private TipoImovel tipoImovel;
+    private Integer andar;
+
+    public ImovelJava() {
+    }
+
+    public ImovelJava(String id, String cep, String endereco, Integer numero, TipoImovel tipoImovel, Integer andar) {
+        this.id = id;
+        this.cep = cep;
+        this.endereco = endereco;
+        this.numero = numero;
+        this.tipoImovel = tipoImovel;
+        this.andar = andar;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getCep() {
+        return cep;
+    }
+
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public Integer getNumero() {
+        return numero;
+    }
+
+    public void setNumero(Integer numero) {
+        this.numero = numero;
+    }
+
+    public TipoImovel getTipoImovel() {
+        return tipoImovel;
+    }
+
+    public void setTipoImovel(TipoImovel tipoImovel) {
+        this.tipoImovel = tipoImovel;
+    }
+
+    public Integer getAndar() {
+        return andar;
+    }
+
+    public void setAndar(Integer andar) {
+        this.andar = andar;
+    }
+}
